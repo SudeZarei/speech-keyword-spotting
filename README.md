@@ -44,11 +44,24 @@ A Sequential Convolutional Neural Network built with Keras is used, which includ
 - **Challenges:** There is slight confusion between certain commands, such as `"down"` and `"go"`, or `"no"`, likely due to phonetic similarities.
 
 ### Sample Predictions
-
-![Sample Predictions: Left](assets/left.png)
-![Sample Predictions: Right](assets/right.png)
-![Sample Predictions: down](assets/down.png)
-![Sample Predictions: yes](assets/yes.png)
+<table>
+  <tr>
+    <td><img src="images/left.png" alt="Sample Prediction: Left" width="400"/></td>
+    <td><img src="images/right.png" alt="Sample Prediction: Right" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Sample Prediction: Left</b></td>
+    <td align="center"><b>Sample Prediction: Right</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/down.png" alt="Sample Prediction: Down" width="400"/></td>
+    <td><img src="images/yes.png" alt="Sample Prediction: Yes" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Sample Prediction: Down</b></td>
+    <td align="center"><b>Sample Prediction: Yes</b></td>
+  </tr>
+</table>
 
 The `use_model.py` script successfully outputs the probability distribution of commands for unseen audio files, demonstrating practical inference capabilities.
 
