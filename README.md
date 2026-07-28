@@ -38,14 +38,17 @@ A Sequential Convolutional Neural Network built with Keras is used, which includ
 
 ### Confusion Matrix Analysis
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](assets/confusion_matrix.png)
 
 - **High Accuracy:** The model performs exceptionally well on commands like `"stop"` (108 correct), `"yes"` (105 correct), and `"right"` (102 correct).
 - **Challenges:** There is slight confusion between certain commands, such as `"down"` and `"go"`, or `"no"`, likely due to phonetic similarities.
 
 ### Sample Predictions
 
-![Sample Predictions](images/prediction_sample.png)
+![Sample Predictions: Left](assets/left.png)
+![Sample Predictions: Right](assets/right.png)
+![Sample Predictions: down](assets/down.png)
+![Sample Predictions: yes](assets/yes.png)
 
 The `use_model.py` script successfully outputs the probability distribution of commands for unseen audio files, demonstrating practical inference capabilities.
 
