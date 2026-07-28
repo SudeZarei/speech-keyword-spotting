@@ -46,16 +46,16 @@ A Sequential Convolutional Neural Network built with Keras is used, which includ
 ### Sample Predictions
 <table>
   <tr>
-    <td><img src="images/left.png" alt="Sample Prediction: Left" width="400"/></td>
-    <td><img src="images/right.png" alt="Sample Prediction: Right" width="400"/></td>
+    <td><img src="assets/left.png" alt="Sample Prediction: Left" width="400"/></td>
+    <td><img src="assets/right.png" alt="Sample Prediction: Right" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><b>Sample Prediction: Left</b></td>
     <td align="center"><b>Sample Prediction: Right</b></td>
   </tr>
   <tr>
-    <td><img src="images/down.png" alt="Sample Prediction: Down" width="400"/></td>
-    <td><img src="images/yes.png" alt="Sample Prediction: Yes" width="400"/></td>
+    <td><img src="assets/down.png" alt="Sample Prediction: Down" width="400"/></td>
+    <td><img src="assets/yes.png" alt="Sample Prediction: Yes" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><b>Sample Prediction: Down</b></td>
