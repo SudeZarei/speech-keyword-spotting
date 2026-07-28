@@ -38,7 +38,9 @@ A Sequential Convolutional Neural Network built with Keras is used, which includ
 
 ### Confusion Matrix Analysis
 
-![Confusion Matrix](assets/confusion_matrix.png)
+<p align="center">
+  <img src="assets/confusion_matrix.png" alt="Confusion Matrix Analysis" width="600" />
+</p>
 
 - **High Accuracy:** The model performs exceptionally well on commands like `"stop"` (108 correct), `"yes"` (105 correct), and `"right"` (102 correct).
 - **Challenges:** There is slight confusion between certain commands, such as `"down"` and `"go"`, or `"no"`, likely due to phonetic similarities.
